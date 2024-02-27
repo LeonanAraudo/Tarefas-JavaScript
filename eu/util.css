@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+.title{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.title a{
+    font-size: 20px;
+    cursor: pointer;
+}
+.title a:hover{
+    color: rgb(42, 165, 63);
+}
+.nome{
+    font-size: 30px;
+
+    color: rgb(0, 0, 0);
+}
+.ima{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    
+}
+.ima img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    object-fit:cover;
+  
+}
+.peq{
+    display: flex;
+    justify-content: center;
+}
+#pesquisa{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+.evento{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.events{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    border: solid 1px;
+    
+   
+}
+.events img{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    object-fit: cover;
+   
+}
