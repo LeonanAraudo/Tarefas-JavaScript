@@ -29,6 +29,9 @@ if(choseOption == "1"){
     alert("opção invalida")
 }
 //os numeros dentro do if e caso a escolha seja 1 2 3 ou 4
-// pelo que entendi esses 1000 / 3600 ea conversão começa convertendo
+//e como se datediff viesse em milesegundos ai começa convertando pra segundos que é dividir por 1000 depois divide por 60 que e a quantidade de segundos em um minuto
+//uma hora tem 3600 segundos
+//vai fazendo divisões seguindo o padrão de dia hora minutos
+// pelo que entendi esses 1000 / 3600 ea conversão de segundos pra horas  é a mesma coisa de 1000 / 60 / 60 começa convertendo
 // de segundo pra minuto depois(1000 / 60) depois de minuto 3600 são as horas
 // logo dividir 3600 pra 24 que e um dia
