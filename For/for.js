@@ -2,6 +2,7 @@ let space = "helmet"
 let newSpace = ""
 //diferente do while que só é possivel colocar uma expressão, dentro do for e possivel declarar uma variavel por uma
 //expressão e adicionar uma ação
+//lembrando que essa expressão é o motivo da repetição enquanto ela tiver certa vai executar
 for(let i = 0; i < space.length; i++){
     console.log(space[i])
 }
@@ -9,6 +10,11 @@ for(let i = 0; i < space.length; i++){
 //nesse exemplo  esta declarando uma variavel i que vai executar enquanto i for menor que o tamanho de space
 //esse i++ vai acrescentar mais um a variavel i a cada interação ele é a mesma coisa que i = i + 1
 //esse space[i] ele ta pegando o que ta em space e usando o i pra dizer a posição é tipo um space[0] , space[1] , space[2]
+
+
+
+
+
 
 
 let space1 = "helmet"

@@ -5,4 +5,4 @@ let aceleration = 500
    velocy += aceleration
  }while(velocy < 3000)
 
- //diferente do while o do while executa o código primeiro pra depois verificar a condição
+  //diferente do while o do while executa o código primeiro pra depois verificar a condição
