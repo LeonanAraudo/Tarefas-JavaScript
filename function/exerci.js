@@ -15,21 +15,40 @@ let opcao = menuInit()
  
 
 function acelerar(){
-   let newVelocidade = 0
-  newVelocidade = velocidade + 5
+   newVelocidade = velocidade + 5
    return newVelocidade
 }
- 
-let mais = acelerar()
 
+function desacelerar(){
+    velocidade = 5;
+    newVelocidade = velocidade - 5
+    return newVelocidade
+ }
+ 
 while(opcao == "1"){
-    mais
+    velocidade = acelerar()
     opcao = menuInit()
+}
+ 
+while(opcao == "2"){
+  if(velocidade > 0){
+    velocidade = desacelerar()
+  }else{
+    alert("A velocidade minima é 0")
+  }
+  opcao = menuInit()
 }
 
 if(opcao == "3"){
-alert("A nave " + nome + " está a " + newVelocidade)
+alert("A nave " + nome + " está a " + velocidade + "km/h")
 }
+
+
+//na resolução dele ao inves de varios whiles ele usou um switch dentro de um do while com cases de 1 2 ou 3
+//e a condição dentro do while era que option !=4 ele fez mais algumas coisas lembra? como declarar uma variavel vazia
+//adicionar velocidade nos parametros das function e antes do switch e depois do do ele colocou que a function
+//que armazena o menu o meu caso o menuInit era igual a variavel vazia, depois colocou o nome dessa variavel vazia
+//dentro da condição do switch
 
 
 

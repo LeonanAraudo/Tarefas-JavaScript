@@ -6,6 +6,7 @@ greetSleep(60,10)
 greetSleep(100,100)
 //de acordo com o moço do video os parametros viraram tipo uma nova variavel que e acrescentado o valor ali em baixo
 //pode ser chamado varias vezes com valores diferentes
+//LEMBRAR QUE VARIAVEIS USADAS EM FUNÇÃO NÃO E ACESSIVEL FORA DELA
 
 
 
