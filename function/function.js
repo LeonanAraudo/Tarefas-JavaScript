@@ -21,11 +21,23 @@ mensagem("Seja bem vindo ", "Jorge")
 
 
 
-function soma(a, b) {
-    return a + b;
-}
+// function soma(a, b) {
+//     return a + b;
+// }
 
-var resultado = soma(3, 4);
+// var resultado = soma(3, 4);
 
 //o return volta imediatamente para onde a função está sendo chamado no caso resultado
 
+
+let goblal = "Aguamenti"
+
+function mudar(){
+    global = "Mudou otário"
+}
+ 
+console.log(global)
+
+mudar()
+
+console.log(global)
