@@ -21,11 +21,11 @@ mensagem("Seja bem vindo ", "Jorge")
 
 
 
-// function soma(a, b) {
-//     return a + b;
-// }
+function soma(a, b) {
+    return a + b;
+}
 
-// var resultado = soma(3, 4);
+var resultado = soma(3, 4);
 
 //o return volta imediatamente para onde a função está sendo chamado no caso resultado
 
@@ -41,3 +41,5 @@ console.log(global)
 mudar()
 
 console.log(global)
+
+//o valor de uma variavel pode ser alterado após ela receber um novo valor na função e a função ser chamada
